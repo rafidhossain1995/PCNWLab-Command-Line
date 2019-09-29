@@ -7,6 +7,30 @@ In this problem, you will be downloading some files from online, then creating a
 2. Once the repository has been downloaded, go ahead and unzip it.
 
 3. Achieve the following structure ONLY using command line:
+cd Desktop
+mkdir assets
+mkdir images
+mkdir memes
+mkdir src
+mv images assets
+mv memes assets
+mv src assets
+cd assets
+ls
+cd images
+touch amazojn.jpg
+touch facebook.png
+touch google.jpg
+touch twitter.png
+cd ..
+cd memes
+mv meme.jpg memes
+cd ..
+cd src
+mv foo.js src
+mv hello.html app.js
+code .
+"full stack: Nights and Weekends."
 
 ~/Desktop/pset2
     /assets
